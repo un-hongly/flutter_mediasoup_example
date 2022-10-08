@@ -1,4 +1,4 @@
-# ftchat_video_call
+# flutter_mediasoup_example
 
 A new Flutter project.
 
