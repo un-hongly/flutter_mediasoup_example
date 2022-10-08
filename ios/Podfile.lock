@@ -1,0 +1,41 @@
+PODS:
+  - Flutter (1.0.0)
+  - flutter_webrtc (0.8.0):
+    - Flutter
+    - WebRTC-SDK (= 97.4692.05)
+  - path_provider_ios (0.0.1):
+    - Flutter
+  - wakelock (0.0.1):
+    - Flutter
+  - WebRTC-SDK (97.4692.05)
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - flutter_webrtc (from `.symlinks/plugins/flutter_webrtc/ios`)
+  - path_provider_ios (from `.symlinks/plugins/path_provider_ios/ios`)
+  - wakelock (from `.symlinks/plugins/wakelock/ios`)
+
+SPEC REPOS:
+  trunk:
+    - WebRTC-SDK
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  flutter_webrtc:
+    :path: ".symlinks/plugins/flutter_webrtc/ios"
+  path_provider_ios:
+    :path: ".symlinks/plugins/path_provider_ios/ios"
+  wakelock:
+    :path: ".symlinks/plugins/wakelock/ios"
+
+SPEC CHECKSUMS:
+  Flutter: 50d75fe2f02b26cc09d224853bb45737f8b3214a
+  flutter_webrtc: 1062ea68c08f530ad3d97f743729dd390d8cbf7b
+  path_provider_ios: 14f3d2fd28c4fdb42f44e0f751d12861c43cee02
+  wakelock: d0fc7c864128eac40eba1617cb5264d9c940b46f
+  WebRTC-SDK: a6ee40bda0e3f7dba057907c3897374005c5715b
+
+PODFILE CHECKSUM: f8b1624092be6e2e05274158991bbb1ce1b81f91
+
+COCOAPODS: 1.11.3
