@@ -27,8 +27,7 @@ dependencies:
   draggable_widget: ^2.0.0
   floating: ^1.1.0
   card_swiper: ^2.0.4
-  webrtc_interface: 1.0.5
-  mediasoup_client_flutter: ^0.8.1
+  mediasoup_client_flutter: ^0.8.5
 
 dev_dependencies:
   flutter_test:

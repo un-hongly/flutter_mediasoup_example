@@ -276,6 +276,7 @@ class _CallScreenState extends State<CallScreen> with WidgetsBindingObserver {
   // }
 
   _startCall() async {
+    print("STAT");
     try {
       setState(() {
         callStatus = 'connecting';

@@ -21,6 +21,10 @@ class SFU {
           .enableForceNew()
           .setPath('/call/socket')
           .setTransports(['websocket'])
+          .setAuth({
+            'deviceId': dotenv.env['DEVICE_ID'],
+            'token': dotenv.env['ACCESS_TOKEN']
+          })
           .setQuery({'peerId': peerId})
           .setReconnectionDelay(socketReconnetionDelay)
           .setReconnectionDelayMax(socketReconnetionDelay)
